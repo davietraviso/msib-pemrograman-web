@@ -1,0 +1,18 @@
+.sdg_wrap {
+    display: flex;
+    align-items: center;
+    padding: 108px 0px;
+    /* margin-left: 240px;
+    margin-right: 240px; */
+    max-width: max-content;
+}
+
+.sdg_img {
+    padding: 0px 10px;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 475px) {
+    
+}

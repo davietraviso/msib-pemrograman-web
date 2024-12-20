@@ -1,0 +1,89 @@
+/* FAQ */
+.faq_wrap {
+    text-align: left;
+    margin-bottom: 24px;
+    display: flex;
+  }
+  
+.faq_image {
+    max-width: 100px; /* Adjust this as needed to control the image size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+  .penjelasan_faq {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 10px;
+  }
+  
+  .line_faq {
+    width: 2px;
+    height: 40px;
+    background-color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .judul_faq { 
+    font-size: 1.2rem;
+    font-weight:bold;
+    color: #333;
+  }
+  
+  .penjelasan_penjelasan_faq2 h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 30px;
+  }
+   
+  .penjelasan_faq2 h1 {
+    font-size: 2.5rem;
+    font-weight: 800; /* Extra bold */
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif; 
+  }
+
+  /* Accordion */
+.accordion-card {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-header:hover {
+    background-color: #fff;
+  }
+  
+  .accordion-body {
+    padding: 16px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .accordion-arrow {
+    width: 16px;
+    height: auto;
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 475px) { 
+    .faq_row .col-3 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+
+  }
+  

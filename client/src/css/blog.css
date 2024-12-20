@@ -1,0 +1,175 @@
+.tombol_blog button{
+    width: 15%;
+    margin-left: 15px;
+}
+
+.berita_terbaru_wrap:hover {
+    cursor: pointer;
+}
+
+.tombol_tombol_blog {
+    cursor: not-allowed; /* shows 'not-allowed' icon */
+    pointer-events: none; /* makes the button non-interactive */
+    
+  }
+
+  .berita_terbaru_img_top { 
+
+    height: 400px !important;
+  }
+
+/* .tombol_tombol_blog {
+    padding-left: 20px;
+} */ 
+
+@media screen and (max-width: 475px) { 
+
+.blog_header {
+    height: 290px !important;
+}
+
+.blog_header_wrap {
+    padding: 16px 24px !important;
+}
+
+.tombol_blog button{
+    width: 120px;
+}
+
+.tombol_tombol_blog p {
+    font-size: 12px !important; 
+}
+
+.header_h_blog {
+    font-size: 20px !important;
+    /* word-spacing: 3px; */
+    /* letter-spacing: 1.5px; */
+}
+
+.tombol_p_blog {
+    font-size: 12px !important; 
+}
+
+
+/* Berita Terbaru */
+
+.terbaru_header {
+    font-size: 16px !important;
+}
+
+.berita_terbaru_col {
+    padding-bottom: 15px;
+}
+
+.berita_terbaru_img {
+    width: 105px !important;
+    height: 124px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.berita_terbaru_img_top {
+    width: 105px !important;
+    height: 124px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+ 
+}
+ 
+.deskripsi_h {
+    font-size: 12px !important;
+}
+
+.deskripsi_p {
+    font-size: 8px !important;
+}
+
+.berita_terbaru_wrap {
+    display: flex;
+}
+.berita_terbaru_deskripsi {
+    width: 273px;
+    padding: 4px 10px !important;
+}
+
+.row_berita {
+    width: 90px;
+}
+
+.row_berita_img {
+    width: 105px !important;
+    height: 124px !important;
+}
+
+/* Berita Lainnya */
+
+.berita_lainnya_konten {
+    padding: 0px !important;
+}
+
+.berita_terbaru_wrap {
+    padding: 0px !important;
+}
+
+.berita_terbaru_deskripsi h3 {
+    font-size: 12px !important;
+}
+
+.berita_terbaru_deskripsi p {
+    font-size: 9px !important;
+}
+
+.berita_lainnya_deskripsi {
+    height: fit-content;
+}
+
+.berita_terbaru_img {
+    margin: 0px !important;
+    width: 105px !important;
+}
+
+.berita_lainnya_konten {
+    border: none !important;
+}
+
+/* Berita Konten */
+
+.berita_terbaru_top p {
+    font-size: 8px;
+}
+
+.konten_blog {
+    padding-right: 0px !important;
+}
+
+.konten_blog_title {
+    width: 80% !important;
+}
+
+.berita_konten_deskripsi h3{
+    font-size: 20px !important;
+    font-weight: bold;
+    padding-top: 0px !important;
+}
+
+.berita_konten_deskripsi h4 {
+    font-size: 10px !important;
+    color: #828282;
+    padding-top: 10px !important;
+}
+
+.berita_konten_img {
+    margin-top: 24px !important;
+    max-height: 240px !important;
+}
+
+.berita_konten_text {
+    font-size: 10px !important;
+    color: #303030;
+    padding-top: 24px !important;
+}
+}

@@ -1,0 +1,459 @@
+/* Header */
+.tentangkami .header {
+  position: relative;
+  overflow: hidden;
+}
+
+.tentangkami-header-box {
+  padding-top: 50px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 108px;
+}
+
+.bg-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 108px;
+  margin-bottom: 48px;
+}
+
+.tentangkami h1, .tentangkami h4 {
+  text-align: left;
+  color: var(--color-text);
+}
+
+.tentangkami .thin-text {
+  font-weight: 300;
+  color: var(--secondary-color-text);
+}
+
+/* Visi Misi */
+.visi-misi {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  color: var(--secondary-color-text);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.visi-misi h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+
+.visi-misi p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 48px;
+  color: var(--secondary-color-text);
+}
+
+.d-flex.justify-content-center.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tentangkami-misi-item {
+  flex-basis: calc(100% / 3 - 25px);
+  max-width: 300px;
+  text-align: center;
+  /* margin-top: 48px; */
+}
+
+.tentangkami-misi-item img {
+  width: 179px;
+  height: 197px;
+}
+
+.tentangkami-misi-item h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--secondary-color-text);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Team */
+.tentangkami-team h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.tentangkami-team h4 {
+  text-align: end;
+  font-size: 18px;
+}
+
+.gambar-kiri {
+  width: 60%;
+  padding-top: 108px;
+}
+
+.tentangkami-layout img {
+  width: 80%;
+  padding-left: 100px;
+  margin: 20px auto;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.text-berinovatif {
+  color: var(--primary-color);
+}
+
+.text-kualitas {
+  color: var(--secondary-color);
+}
+
+.mengedepankan {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 48px;
+  font-size: 38px;
+}
+
+/* People Section */
+.tentangkami-person {
+  background-color: var(--secondary-color-text);
+  padding: 20px 0;
+}
+
+.tentangkami-person h1 {
+  font-size: 3rem;
+  color: var(--color-text);
+}
+
+.tentangkami-person h1 span {
+  font-weight: bold;;
+  color: #000;
+}
+
+.tentangkami-team-images {
+  margin-top: 30px;
+}
+
+.tentangkami-people {
+  margin-bottom: 50px;
+}
+
+.tentangkami-people img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tentangkami-people h3 {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #000;
+}
+
+
+
+/* Responsif  */
+@media screen and (max-width: 775px) {
+.mengedepankan h4 {
+  font-size: 28px;
+}
+
+.bg-image {
+  height: 220px;
+  border-radius: 18px;
+}
+
+.tentangkami h1 {
+  font-size: 1.5rem;
+  color: var(--color-text);
+  margin-top: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.tentangkami h4 {
+  font-size: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.visi-misi h1 {
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+}
+
+.tentangkami-misi-item h4 {
+  font-size: 1.2rem;
+  padding-top: 8px;
+}
+
+.tentangkami-team h1 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.tentangkami-team h4 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.tentangkami-person h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.tentangkami-person h3 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.d-flex.justify-content-center.flex-wrap {
+  flex-direction: column;
+  align-items: center;
+}
+
+.tentangkami-misi-item {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.tentangkami-misi-item img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.tentangkami-team img {
+  width: 75%;
+  max-width: 280px;
+  display: block;
+  margin: 0 auto;
+}
+
+.tentangkami-layout img {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+}
+
+@media screen and (max-width: 575px) {
+.mengedepankan h4 {
+  font-size: 28px;
+}
+
+.bg-image {
+  height: 180px;
+  border-radius: 14px;
+}
+
+.tentangkami h1 {
+  font-size: 1.4rem;
+  color: var(--color-text);
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.tentangkami h4 {
+  font-size: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.visi-misi h1 {
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+}
+
+.tentangkami-misi-item h4 {
+  font-size: 1.4rem;
+  padding-top: 5px;
+}
+
+.tentangkami-team h1 {
+  font-size: 1.6rem;
+  text-align: center !important;
+}
+
+.tentangkami-team h4 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tentangkami-person h1 {
+  font-size: 2rem;
+  margin-top: 0px;
+}
+
+.d-flex.justify-content-center.flex-wrap {
+  flex-direction: column;
+  align-items: center;
+}
+
+.tentangkami-misi-item {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.tentangkami-misi-item img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.tentangkami-team img {
+  width: 90%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 475px) {
+.mengedepankan h4 {
+  font-size: 26px;
+}
+
+.bg-image {
+  height: 200px;
+  border-radius: 12px;
+}
+
+.tentangkami h1 {
+  font-size: 1.2rem;
+  color: var(--color-text);
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.tentangkami h4 {
+  font-size: 1.1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.visi-misi h1 {
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+}
+
+.tentangkami-misi-item h4 {
+  font-size: 1.3rem;
+  padding-top: 5px;
+}
+
+.tentangkami-team h1 {
+  font-size: 1.5rem;
+  text-align: center !important;
+}
+
+.tentangkami-team h4 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tentangkami-layout img {
+  margin-left: 50px;
+}
+
+.tentangkami-person h1 {
+  font-size: 1.6rem;
+  margin-top: 0px;
+}
+
+.tentangkami-misi-item img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 375px) {
+.mengedepankan h4 {
+  font-size: 24px;
+}
+
+.bg-image {
+  height: 180px;
+  border-radius: 15px;
+}
+
+.tentangkami h1 {
+  font-size: 1.1rem;
+  color: var(--color-text);
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.tentangkami h4 {
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.visi-misi h1 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+.tentangkami-misi-item h4 {
+  font-size: 1.1rem;
+  padding-top: 5px;
+}
+
+.tentangkami-team h1 {
+  font-size: 1.3rem;
+  text-align: center !important;
+}
+
+.tentangkami-team h4 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tentangkami-person h1 {
+  font-size: 1.4rem;
+  margin-top: 0px;
+}
+
+.d-flex.justify-content-center.flex-wrap {
+  flex-direction: column;
+  align-items: center;
+}
+
+.tentangkami-misi-item {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.tentangkami-misi-item img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.tentangkami-team img {
+  width: 80%;
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+}

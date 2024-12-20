@@ -1,0 +1,52 @@
+.form_section_title {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .form_group {
+    margin-bottom: 1rem;
+  }
+  
+  .form_input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form_textarea {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form_button {
+    margin-right: 1em;
+  }
+  
+  .button-kembali {
+    background-color: #f8f9fa;
+    color: #000;
+  }
+  
+  .button-ajukan {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .blue-line {
+    width: 2px; /* Lebar kecil untuk tampilan garis tipis */
+    height: 2.6em; /* Sesuaikan tinggi agar rata dengan teks */
+    background-color: #007bff; /* Warna biru */
+    margin-right: 0.5em; /* Jarak antara garis dan teks */
+    display: inline-block; /* Agar berada dalam satu baris dengan teks */
+    vertical-align: middle; /* Sejajarkan dengan tengah teks */
+  }
+
+.top_produkpembelian  {
+  margin: 0 179px ;
+  padding-top: 100px;
+}
+  
+  

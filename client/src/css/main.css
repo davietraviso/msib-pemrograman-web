@@ -1,0 +1,156 @@
+/* Base */
+
+* {
+    font-family: "Poppins";
+}
+
+:root {
+    --primary-color: #2971fd;
+    --secondary-color: #FF9600;
+    --color-text: #303030;
+    --secondary-color-text: #fff;
+    --navbar-color: #ffffff;
+    --navbar-color-text: #303030;
+}
+
+/* Base */
+
+/* Style Navbar */
+.logo {
+    width: 130px;
+    height: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    z-index: 10000;
+    background-color: #fff;
+}
+
+.navbar-container {
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.color-active {
+    background-color: var(--navbar-color);
+    padding: 20px 0;
+    border-bottom: 2px solid #2970fd49;
+}
+
+.navbar .nav-link a {
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--navbar-color-text);
+}
+
+.navbar .nav-link a:hover {
+    color: var(--primary-color);
+}
+
+.navbar .nav-link .active {
+    background-color: var(--primary-color);
+    color: var(--secondary-color-text);
+    border-radius: 8px;
+}
+
+.navbar .nav-link .active:hover {
+    color: var(--navbar-color);
+}
+
+.pembelian_data_diri {
+    margin-bottom: 0px !important;
+}
+ 
+
+/* Style Navbar */
+
+/* Style Footer */
+
+footer {
+    background-color: var(--primary-color);
+}
+.input-group .form-control {
+    border-radius: 10px 0 0 10px; /* Rounded corners on the left */
+    border-right: none;           /* Remove right border on input */
+}
+
+.input-group .btn {
+    border-radius: 0 10px 10px 0; /* Rounded corners on the right */
+}
+
+.footer_text h5 {
+    font-weight: 700;
+}
+
+
+/* Style Footer */
+
+/* Adjust Public Container */
+
+.container-md .cont_main {
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+
+@media screen and (max-width: 1297px) {
+
+    .navbar-container {
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+
+ 
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .navbar-container {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+ 
+}
+
+@media screen and (max-width: 699px) {
+
+    .navbar-container {
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+ 
+}
+
+@media screen and (max-width: 575px) {
+
+    .navbar-container {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+ 
+}
+
+@media screen and (max-width: 475px) {
+
+    .navbar-container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    
+
+ 
+}
+
+@media screen and (max-width: 375px) {
+ 
+}
+/* Style Homepage Header */
+ 

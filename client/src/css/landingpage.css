@@ -1,0 +1,553 @@
+/* Style Homepage Header */
+
+header {
+    background: #ffffff;
+}
+
+.landingpage-container {
+    /* margin-left: 240px;
+    margin-right: 240px; */
+}
+
+.landingpage {
+    width: 100%;
+}
+
+.landingpage .header-box h1
+ {
+    font-family: "Poppins SemiBold";
+    font-size: 3.7rem;
+    font-weight: 700;
+    color: var(--color-text);
+ }
+
+ 
+.landingpage .header-box h1 span {
+    color: var(--secondary-color);
+    font-weight: 800;
+}
+
+.landingpage .header-box .cuan {
+    position: relative; /* Enables control over pseudo-element positioning */
+    display: inline-block; /* Ensures it wraps around the text */
+    color: var(--color-text); /* Text color */
+    font-weight: 800;
+    z-index: 1; /* Ensures text is above the pseudo-element */
+}
+
+.landingpage .header-box .cuan::before {
+    content: ""; /* Creates the highlight */
+    position: absolute;
+    top: 50%; /* Adjust this to control vertical alignment */
+    left: 0; /* Aligns with the text */
+    width: 100%; /* Covers the entire width of the text */
+    height: 0.4em; /* Adjust the height of the highlight */
+    background-color: #FFBE54; /* Highlight color */
+    z-index: -1; /* Places it behind the text */
+    transform: translateY(0.1em); /* Fine-tune its position relative to the text */
+}
+
+
+.landingpage .header-box p {
+    line-height: 2;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.header-box .mb-4{
+    font-size: 20px;
+}
+
+.landingpage .header-box button p{
+    font-family: 'Poppins SemiBold', sans-serif;
+}
+
+.landingpage .header-box img {
+    width: 459px;
+    height: 481px;
+}
+
+.landingpage .btn p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: var(--secondary-color-text);
+}
+ 
+/* Style Homepage Header */
+
+/* Style Homepage Kontributor & Jumlah Sampah */
+
+.hitungan {
+    background-color: var(--primary-color);
+}
+
+.hitungan .hitungan-cont {
+    /* padding: 0;
+    margin-left: 240px;
+    margin-right: 240px; */
+}
+
+.hitungan .hitungan-container {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: row;
+    justify-content:space-around; /* Space between boxes (can use space-between, space-evenly, etc.) */
+    align-items:left; /* Aligns boxes at the start vertically */
+    flex-wrap: wrap; /* Allows wrapping if there’s not enough space */
+    gap: 10px; /* Optional: Adds space between boxes */
+    text-align: left;
+    padding: 48px 12px;
+    width: 1103px;
+}
+
+
+.hitungan .box-1 {
+    width:fit-content;
+    height: fit-content;
+    /* border: 2px solid #000; */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--secondary-color-text);
+    
+}
+
+.hitungan .box-1 p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hitungan .box-1 h1 {
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 650;
+}
+
+.hitungan .box-2 {
+    padding: 12px 48px; /* Only apply padding here */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hitungan .box-2-2 {
+    padding: 12px 70px;
+}
+
+.hitungan .hitungan-container .hitungan-text {
+    width: 100%; /* Optional: Set to 100% if you want it to take the full width */
+    max-width: 400px; /* Optional: Set a maximum width for better readability */
+    padding: 20px 20px;
+    color: var(--secondary-color-text);
+}
+
+.hitungan .hitungan-container .hitungan-text p {
+    margin: 0;
+}
+
+.hitungan .hitungan-container .gimi_1 img{
+    width: 100px;
+    height: 100%;
+}
+
+/* Style Homepage Kontributor & Jumlah Sampah */
+
+/* Style Penjelasan */
+
+
+.penjelasan .penjelasan_container {
+    padding: 108px 12px;
+    /* margin-left: 240px;
+    margin-right: 240px;
+    width: 1103px;
+    height: 100%; */
+}
+
+.penjelasan .penjelasan_container .penjelasan_wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.penjelasan_title {
+    display: flex;
+    align-items: center;
+    font-size: 20px; /* Adjust font size as needed */
+    /* font-weight: 600; */
+    color: var(--color-text); /* Adjust text color */
+    position: relative;
+}
+
+.line_1 {
+    border-left: 2px solid var(--primary-color);
+    height: 40px;
+    padding-right: 12px;
+}
+
+
+.penjelasan .penjelasan_container .penjelasan_wrap .penjelasan_big h1 {
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.penjelasan .penjelasan_container .penjelasan_wrap .penjelasan_sub p {
+    font-family: 'Poppins Light';
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight:0;
+}
+
+.penjelasan .penjelasan_container .penjelasan_wrap .penjelasan_gambar {
+    /* display: flex;         Optional: allows images to sit in a row */
+    gap: 20px;             /* Adjust spacing between images if needed */
+    max-width: 100%;       /* Keep container within the width limit */
+    overflow: hidden;
+}
+
+.penjelasan .penjelasan_container .penjelasan_wrap .penjelasan_gambar img{
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* Style Penjelasan */
+
+/* Style Yuk */
+
+.yuk {
+    background-color: #292323;
+}
+
+.yuk .yuk_container {
+    /* padding: 108px 12px; */
+    /* margin-left: 240px;
+    margin-right: 240px;
+    width: 1103px;
+    height: 100%; */
+}
+
+.yuk .yuk_container .yuk_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.yuk .yuk_container .yuk_wrap .yuk_text {
+    color: var(--secondary-color-text);
+}
+
+.yuk .yuk_container .yuk_wrap .yuk_text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.yuk .yuk_container .yuk_wrap .yuk_text p {
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+/* Style Yuk */
+
+/* Style Benefit */
+
+.benefit_container {
+    padding: 108px 12px;
+    /* margin-left: 240px;
+    margin-right: 240px;
+    width: 1103px;
+    height: 100%; */
+}
+
+.benefit_title {
+    display: flex;
+    align-items: center;
+    font-size: 20px; /* Adjust font size as needed */
+    color: var(--color-text); /* Adjust text color */
+    position: relative;
+}
+
+.benefit_big h1 {
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.benefit_sub p {
+    font-family: 'Poppins Light';
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.benefit_jasa {
+    padding-top: 10px;
+    display: flex;         /* Optional: allows images to sit in a row */
+    gap: 20px;             /* Adjust spacing between images if needed */
+    max-width: 100%;       /* Keep container within the width limit */
+    overflow: hidden;
+    width: 100%;
+}
+
+.benefit_jasa .jasa_box {
+    border: 1px solid #eaeaea;   
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Style Benefit */
+
+
+/* Style Jasa */
+
+.jasa_box {
+    width: fit-content;
+    height: fit-content;
+}
+
+.jasa_trash {
+    width: 48px;
+}
+
+.jasa_box_wrap {
+    margin: 20px;
+}
+
+.jasa_box_detail h1 {
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.jasa_box_detail p {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #828282;
+}
+
+.jasa_col .btn_lihat {
+    border-radius: 10px;
+}
+
+.jasa_col .btn_lihat p {
+    padding: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style Jasa */
+
+/* Style Testimoni */
+
+.testimoni {
+    background-color: var(--secondary-color);
+}
+
+.line_2 {
+    border-left: 2px solid #CEEAFF;
+    height: 40px;
+    padding-right: 12px;
+}
+
+.testimoni_container {
+    padding: 48px 12px;
+    /* margin-left: 240px;
+    margin-right: 240px;
+    width: 1103px;
+    height: 100%; */
+}
+
+.testimoni_wrap {
+    position: relative;
+}
+
+.testimoni_title {
+    display: flex;
+    align-items: center;
+    font-size: 20px; /* Adjust font size as needed */
+    color: var(--secondary-color-text); /* Adjust text color */
+    position: relative;
+}
+
+.testimoni_big h1 {
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--secondary-color-text);
+}
+
+
+.testimoni_wrap .quote_wrap {
+    padding-top: 10px;
+    display: flex;         
+    gap: 20px;             
+    max-width: 100%;       
+    overflow: hidden;
+
+}
+
+/* .testimoni_wrap .testimoni_img {
+    position: absolute;  
+    right: 120px;        
+    top: 40px;         
+    width: 400px;       
+    height: auto;       
+    z-index: 1;    
+} */
+
+.testimoni_wrap .quote_wrap .quote_box {
+    width: 350px;
+    height: fit-content;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    /* gap: 30px; */
+}
+
+.testimoni_wrap .quote_wrap .quote_box .quote_box_p {
+    font-style: italic;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.testimoni_wrap .quote_wrap .quote_box .quote_box_wrap {
+    margin: 20px;
+}
+
+.testimoni_wrap .quote_wrap .quote_box .quote_icon{
+    width: 24px;
+    height: 24px;
+}
+
+.testimoni_wrap .quote_wrap .quote_box .quote_nama {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.testimoni_wrap .quote_wrap .quote_box .quote_nama img {
+    width: 64px;
+    height: 64px;
+}
+
+.testimoni_wrap .quote_wrap .quote_box .quote_nama h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.testimoni_wrap .quote_wrap .quote_box .quote_nama p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.testimoni_wrap .quote_wrap .quote_box .quote_nama .quote_nama_wrap {
+    padding-left: 10px;
+}
+
+/* Style Testimoni */
+
+/* Carousel Text */
+
+.scrolling-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+.scrolling-text h1 {
+    display: inline-block;
+    white-space: nowrap; /* Prevent line break */
+    animation: scrollText 40s linear infinite; /* Adjust timing as needed */
+    font-size: 64px; /* Adjust text size */
+    font-weight: bold;
+    padding: 10px 0;
+    width: max-content; /* Allows text to extend beyond the viewport */
+    text-shadow: 
+    -2px -2px 0px var(--primary-color),  /* Top left */
+     2px -2px 0px var(--primary-color),  /* Top right */
+    -2px  2px 0px var(--primary-color),  /* Bottom left */
+     2px  2px 0px var(--primary-color);  /* Bottom right */
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%); /* Start fully off-screen to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End fully off-screen to the left */
+    }
+  }
+  
+
+/* Carousel Text */
+
+@media screen and (max-width: 1297px) {
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+
+    .landingpage .header-box img {
+        width: 350px;
+        height: 380px;
+        display: block;
+        margin-inline: auto;
+    }
+}
+
+@media screen and (max-width: 699px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+
+
+    .landingpage .header-box h1 {
+        font-size: 3rem;
+    }
+}
+ 
+@media screen and (max-width: 475px) {
+
+
+    .landingpage .header-box h1 {
+        font-size: 2.4rem;
+    }
+
+    .landingpage .header-box p {
+        font-size: 14px;
+    }
+
+    .landingpage .header-box img { 
+        width: 250px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .landingpage .header-box h1 {
+        font-size: 1rem;
+        padding-left: 600px;    
+    }
+
+    .landingpage .header-box p {
+        font-size: 12px;
+    }
+}
