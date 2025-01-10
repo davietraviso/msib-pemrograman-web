@@ -9,6 +9,7 @@ const BlogBuat = () => {
   const [subTitle, setSubTitle] = useState("");
   const [text, setText] = useState("");
 
+
   const submitPost = () => {
     Axios.post("http://localhost:5174/api/create", {
       userName: userName, 

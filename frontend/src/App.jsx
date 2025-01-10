@@ -21,6 +21,8 @@ import SupportChatWidget from "./components/SupportChatWidget"
 import { FormProvider } from "./components/FormContext"
 import { CartProvider } from './components/CartContext'
 import { ProductProvider } from "./components/ProductContext";
+import BlogDelete from "./pages/BlogDelete";
+import BlogUpdate from "./pages/BlogUpdate";
 
 
  
@@ -45,6 +47,8 @@ export default function App() {
               <Route path="/Konfirpembayaran" Component={Konfirpembayaran}></Route>
               <Route path="/blog-buat" Component={BlogBuat}></Route>
               <Route path="/post/:postId" element={<BlogPost />} />
+              <Route path="/blog-delete" Component={BlogDelete}></Route>
+              <Route path="/blog-update" Component={BlogUpdate}></Route>
             </Routes>
           </FormProvider>      
         </CartProvider>  

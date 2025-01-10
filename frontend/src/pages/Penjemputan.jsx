@@ -5,7 +5,7 @@ import ColorBlock from '../components/MapComponen';
 import React, { useContext, useState, useEffect } from 'react';
 import MapComponent2 from '../components/MapComponent2';
 import { FormContext } from '../components/FormContext';
-import { ProductContext } from '../components/ProductContext';
+import { ProductContext } from '../components/ProductContext'; 
 // import './style.css'; // Import the CSS file
 
 const Penjemputan = () => {
