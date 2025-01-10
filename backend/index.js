@@ -36,7 +36,6 @@ app.get("/api/get", (req, res) => {
   });
 
 
-
   app.get("/api/getFromId/:id", (req, res) => {
     const { id } = req.params;
   
@@ -55,7 +54,7 @@ app.get("/api/get", (req, res) => {
     });
   });
 
-
+// create
   app.post("/api/create", (req, res) => {
     const { userName, title, subTitle, text } = req.body;
   
@@ -72,6 +71,43 @@ app.get("/api/get", (req, res) => {
       }
     );
   });
+
+
+// update
+app.put("/api/update/:id", (req, res) => {
+  const { id } = req.params;
+  const { title, subTitle, post_text, username } = req.body;
+
+  const sqlUpdate =
+    "UPDATE postingan_all SET title = ?, sub_title = ?, post_text = ?, username = ? WHERE id = ?";
+  db.query(sqlUpdate, [title, subTitle, post_text, username, id], (err, result) => {
+    if (err) {
+      console.error("Error updating blog:", err);
+      return res.status(500).send("Failed to update blog.");
+    }
+    res.send({ message: "Blog updated successfully!", result });
+  });
+});
+
+
+//delete
+app.delete("/api/delete/:id", (req, res) => {
+  const { id } = req.params;
+
+  const query = `
+    DELETE FROM postingan_all
+    WHERE id = ?
+  `;
+
+  db.query(query, [id], (err, result) => {
+    if (err) {
+      console.error("Error deleting post:", err);
+      return res.status(500).send(err);
+    }
+
+    res.status(200).send({ message: "Post deleted successfully", result });
+  });
+});
 
 // Blog Page
 
@@ -238,6 +274,7 @@ app.get("/api/payment-status/:orderId", async (req, res) => {
     res.status(500).send("Failed to retrieve payment status.");
   }
 });
+
 
 
 
